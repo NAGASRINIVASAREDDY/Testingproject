@@ -26,7 +26,7 @@ class ApplicationTests {
 		sleep(1000);
 		driver.findElement(By.xpath("//input[@type='number']")).sendKeys("28");
 		sleep(1000);
-		driver.findElement(By.xpath("//option[@value='Female']")).click();
+		driver.findElement(By.xpath("//option[@value='male']")).click();
 		sleep(1000);
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		sleep(1000);
